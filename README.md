@@ -4,6 +4,8 @@
 
 Mini calculator API built with Deno.
 
+Written to experiment with Deno.
+
 ## Requirements ##
 
 * Deno (`>=1.0.0`).
