@@ -8,7 +8,7 @@ export class ArithmeticError extends Error {
 }
 
 export class UnknownOperatorError extends Error {
-  constructor (unknownOperator: string) {
+  constructor(unknownOperator: string) {
     super(`Unknown operator ${unknownOperator}.`);
   }
 }

@@ -1,10 +1,9 @@
-import Engine from './engine.ts';
-import { CalculationRequest, CalculationResult } from '../types.ts'
+import Engine from "./engine.ts";
+import { CalculationRequest, CalculationResult } from "../types.ts";
 
-export default class Addition extends Engine{
-
-  constructor () {
-    super('Addition');
+export default class Addition extends Engine {
+  constructor() {
+    super("Addition");
   }
 
   calculate(request: CalculationRequest): CalculationResult {
@@ -12,7 +11,7 @@ export default class Addition extends Engine{
     console.log(`${this.name} engine: ${expression}`);
     return {
       expression,
-      result: request.operand1 + request.operand2
-    }
+      result: request.operand1 + request.operand2,
+    };
   }
 }
