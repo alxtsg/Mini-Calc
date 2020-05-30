@@ -8,8 +8,7 @@ Written to experiment with Deno.
 
 ## Requirements ##
 
-* Deno (`>=1.0.0`).
-
+* Deno (`>=1.0.2`).
 
 ## Configuration ##
 
