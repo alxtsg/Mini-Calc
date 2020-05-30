@@ -14,6 +14,6 @@ ADD --chown=deno:deno . .
 # Prefer not to run as root.
 USER deno
 
-RUN deno cache main.ts
+RUN deno cache deps.ts main.ts
 
 CMD ["run", "--allow-read=/home/deno/app", "--allow-net", "main.ts"]
