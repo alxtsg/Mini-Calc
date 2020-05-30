@@ -4,7 +4,7 @@ export {
 
 export {
   config,
-} from "https://deno.land/x/dotenv@v0.3.0/mod.ts";
+} from "https://deno.land/x/dotenv@v0.4.1/mod.ts";
 export {
   Application,
   Context,
