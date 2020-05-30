@@ -1,5 +1,4 @@
-import { Request } from "https://deno.land/x/oak@v4.0.0/mod.ts";
-
+import { Request } from "../deps.ts";
 import { Operator, CalculationRequest } from "../types.ts";
 import { InvalidAPIRequestError } from "../error.ts";
 

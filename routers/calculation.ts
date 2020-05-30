@@ -1,12 +1,11 @@
-import { Router } from "https://deno.land/x/oak@v4.0.0/mod.ts";
-
+import CalculationService from "../services/calculation.ts";
+import { Router } from "../deps.ts";
+import extractOperation from "../api_utils/extract_operation.ts";
 import {
   CalculationRequest,
   CalculationResult,
   CalculationResponseBody,
 } from "../types.ts";
-import CalculationService from "../services/calculation.ts";
-import extractOperation from "../api_utils/extract_operation.ts";
 
 const router = new Router();
 const service = new CalculationService();

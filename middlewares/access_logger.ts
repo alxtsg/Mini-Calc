@@ -1,4 +1,4 @@
-import { Context } from "https://deno.land/x/oak@v4.0.0/mod.ts";
+import { Context } from "../deps.ts";
 
 export default async (ctx: Context, next: () => Promise<void>) => {
   const log = {

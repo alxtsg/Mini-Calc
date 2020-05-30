@@ -1,5 +1,4 @@
-import { config } from "https://deno.land/x/dotenv@v0.3.0/mod.ts";
-
+import { config } from "./deps.ts";
 import { InvalidEnvConfigError } from "./error.ts";
 import { EnvConfig } from "./types.ts";
 

@@ -1,9 +1,8 @@
 /// <reference path="./lib.deno.d.ts" />
 
-import { assertStrictEq } from "https://deno.land/std@v0.51.0/testing/asserts.ts";
-
 import app from "./app.ts";
 import config from "./config.ts";
+import { assertStrictEq } from "./deps.ts";
 
 const hostname: string = "127.0.0.1";
 const endpoint: string = `http://${hostname}:${config.port}`;

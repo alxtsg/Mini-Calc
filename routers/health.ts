@@ -1,5 +1,4 @@
-import { Router } from "https://deno.land/x/oak@v4.0.0/mod.ts";
-
+import { Router } from "../deps.ts";
 import { HealthCheckResponseBody } from "../types.ts";
 
 const router = new Router();

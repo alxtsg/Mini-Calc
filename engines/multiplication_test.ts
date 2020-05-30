@@ -1,7 +1,6 @@
 /// <reference path="../lib.deno.d.ts" />
 
-import { assertStrictEq } from "https://deno.land/std@v0.51.0/testing/asserts.ts";
-
+import { assertStrictEq } from "../deps.ts";
 import MultiplicationEngine from "./multiplication.ts";
 import { Operator, CalculationRequest } from "../types.ts";
 

@@ -1,8 +1,7 @@
 /// <reference path="../lib.deno.d.ts" />
 
-import { assertStrictEq } from "https://deno.land/std@v0.51.0/testing/asserts.ts";
-
 import AdditionEngine from "./addition.ts";
+import { assertStrictEq } from "../deps.ts";
 import { Operator, CalculationRequest } from "../types.ts";
 
 const engine = new AdditionEngine();
