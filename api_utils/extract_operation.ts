@@ -2,7 +2,7 @@ import { Request } from "../deps.ts";
 import { Operator, CalculationRequest } from "../types.ts";
 import { InvalidAPIRequestError } from "../error.ts";
 
-const RADIX = 10;
+const RADIX: number = 10;
 
 export default async (request: Request): Promise<CalculationRequest> => {
   if (!request.hasBody) {

@@ -2,9 +2,9 @@ import { config } from "./deps.ts";
 import { InvalidEnvConfigError } from "./error.ts";
 import { EnvConfig } from "./types.ts";
 
-const RADIX = 10;
-const PORT_LOWER = 0;
-const PORT_UPPER = 65535;
+const RADIX: number = 10;
+const PORT_LOWER: number = 0;
+const PORT_UPPER: number = 65535;
 
 const env = config();
 const port: number = Number.parseInt(env.PORT, RADIX);
